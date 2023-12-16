@@ -3,10 +3,3 @@ title = "Yeva Rizhko | Product Designer"
 weight = 1
 LanguageName = "ENG"
 contentDir = "content/english"
-
-[ua]
-title = "Єва Ріжко | Дизайнер"
-description = "Дизайн | Інтерфейси | Дизайн Системи"
-contentDir = "content/ukrainian"
-weight = 2
-LanguageName = "УКР"

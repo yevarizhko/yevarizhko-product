@@ -3,21 +3,9 @@
   identifier = "home"
   weight = 100
   url = "/"
-
-  [[main]]
-  name = "Gallery"
-  weight = 200
-  identifier = "portfolio"
-  url = "/portfolio/"
-
-  [[main]]
-  name = "About"
-  weight = 300
-  identifier = "about"
-  url = "/about/"
-
-  [[footer]]
-  name = "imprint"
-  weight = 1
-  identifier = "imprint"
-  url = "/imprint/"
+  
+  #[[footer]]
+  #name = "imprint"
+  #weight = 1
+  #identifier = "imprint"
+  #url = "/imprint/"

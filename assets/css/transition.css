@@ -1,0 +1,59 @@
+@media only screen and (min-width: 961px) {
+    .wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        /* Center the main content horizontally */
+        align-items: flex-start;
+        /* Align the main content to the top */
+    }
+
+    .hidding-sidebar {
+        animation-name: fade, shrink;
+        animation-duration: 0.5s;
+        animation-delay: 0s, 0.5s;
+        animation-fill-mode: both;
+    }
+
+    @keyframes fade {
+        100% {
+            opacity: 0;
+        }
+    }
+
+    @keyframes shrink {
+        100% {
+            width: 0;
+        }
+    }
+
+    .appearing-sidebar {
+        animation-name: expand, reveal;
+        animation-duration: 0.5s;
+        animation-delay: 0s, 0.5s;
+        animation-fill-mode: both;
+    }
+
+    @keyframes expand {
+        0% {
+            width: 0;
+            min-width: 0;
+        }
+
+        100% {
+            width: flex;
+            min-width: 0;
+        }
+    }
+
+    @keyframes reveal {
+        0% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+
+    }
+}
