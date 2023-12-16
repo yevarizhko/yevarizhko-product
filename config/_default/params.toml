@@ -1,13 +1,12 @@
-
 title = "Yeva Rizhko"
 author = "Yeva Rizhko"
-#copyright = "2023"
+copyright = "Copyright © 2023 Yeva Rizhko"
 description = "Product Designer | UI/UX | Design Systems"
 profilePicture = "images/profile.jpg"
 keywords = ""
 favicon = "favicons/"
 # example ["css/custom.css"]
-customCss = []
+customCss = ["css/custom.css"]
 # example ["js/custom.js"]
 customJs = [] 
 mainSections = ["post"]
@@ -21,20 +20,21 @@ doNotLoadAnimations = true
 # Google Site Verify
 #googleSiteVerify = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
 singleDateFormat = "2/1/2006"
-indexDateFormat = "2/1/2006"
+indexDateFormat = "2006"
 listDateFormat = "2/1/2006"
 # Commento Comments
 # CommentoURL = "https://commento.example.com/js/commento.js"
 # Read More links for truncated summaries
 # readMore = true
-# postSectionName = "blog"
+# postSectionName = "projects"
 # relatedPosts = true
 # numberOfRelatedPosts = 3
 
-
-reversepagetitle = true # When set to 'true', the Window Title will be reversed to 'Title | Author' instead of the default 'Author | Title'
-
-# hidesidebar = true
+displayMode = ""
+enableMediumZoom = true
+reversepagetitle = false
+hidesidebar = true
+contentratio = 0.6
 
 [simpleAnalytics]
 # enable = true
@@ -60,21 +60,6 @@ use = "katex"  # options: "katex", "mathjax". default is "katex".
 icon = "fab fa-linkedin"
 title = "Linkedin"
 url = "https://www.linkedin.com/in/yevarizhko/"
-
-[[socialIcons]]
-icon = "fab fa-telegram"
-title = "Telegram"
-url = "https://t.me/yevarizhko"
-
-[[socialIcons]]
-icon = "fab fa-instagram"
-title = "instagram"
-url = "https://www.instagram.com/yevarizhko/"
-
-[[socialIcons]]
-icon = "fab fa-twitter"
-title = "Twitter"
-url = "https://twitter.com/YevaRizhko"
 
 [[socialIcons]]
 icon = "fas fa-envelope"
