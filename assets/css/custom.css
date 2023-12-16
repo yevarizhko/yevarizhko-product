@@ -1,3 +1,10 @@
 .sidebar__list-item {
-    font-size: 12px;
+    font-size: 14px;
+    display: block;
+    padding: 4px 0px;
+
+}
+
+.sidebar__list-item i {
+    font-size: 20px;
 }
